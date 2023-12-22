@@ -6,7 +6,7 @@ const AuthPage = (props) => {
     err.preventDefault();
     const { value } = err.target[0];
     axios
-      .post("https://chat-app-git-main-joy-ezeanis-projects.vercel.app/authenticate", {
+      .post("https://joy-ezeani-chat-app.onrender.com/authenticate", {
         username: value,
       })
       .then((res) => {
